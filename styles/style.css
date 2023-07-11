@@ -4,8 +4,8 @@
   padding: 0;
 }
 
-main {
-  margin: 178px 240px 0;
+.container {
+  margin: 128px 240px;
 }
 
 p {
@@ -26,9 +26,8 @@ p {
 }
 
 section {
-  margin-bottom: 128px;
+  margin-top: 128px;
 }
-
 /*---------------------------------- Header Styles ------------------------------------*/
 header {
   background: rgba(229, 84, 115, 0.1);
@@ -47,6 +46,7 @@ header {
 .header-description {
   margin: 32px 0;
   max-width: 634px;
+  text-align: left;
 }
 
 .header-info {
@@ -54,7 +54,8 @@ header {
 }
 
 /*---------------------------------- Feature Section Styles ------------------------------------*/
-.featured-title {
+.featured-title,
+.heading {
   color: #272727;
   text-align: center;
   font-size: 40px;
@@ -132,4 +133,104 @@ header {
   font-size: 24px;
   font-weight: 600;
   margin-top: 24px;
+}
+
+/*---------------------------------- Hot Deal Section ------------------------------------*/
+#hot-deal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 170px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 400px 0;
+}
+
+.hot-deal-info {
+  max-width: 594px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.off {
+  color: #e55473;
+}
+
+.hot-deal-description {
+  margin: 24px 0 32px;
+}
+
+/*---------------------------------- Insta Section ------------------------------------*/
+.insta-images {
+  display: flex;
+  gap: 24px;
+}
+
+.latest-deal {
+  background-image: url(../images/Rectangle\ 9.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 449px;
+  flex-shrink: 0;
+}
+
+.latest-deal-description {
+  margin: 16px 0 48px;
+}
+
+.latest-deal-mail {
+  border-radius: 8px;
+  background: #fff;
+  width: 700px;
+  height: 64px;
+  padding-left: 22px;
+  border: 0;
+}
+
+.input {
+  display: flex;
+  gap: 16px;
+}
+
+/*---------------------------------- Footer Section ------------------------------------*/
+footer {
+  background: #111010;
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pink-footer-title {
+  color: #e55473;
+}
+.footer-header-title {
+  color: white;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  max-width: 625px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 32px;
+}
+
+.footer-copyrights {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }

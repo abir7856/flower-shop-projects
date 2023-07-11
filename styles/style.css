@@ -3,3 +3,133 @@
   margin: 0;
   padding: 0;
 }
+
+main {
+  margin: 178px 240px 0;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+section {
+  margin-bottom: 128px;
+}
+
+/*---------------------------------- Header Styles ------------------------------------*/
+header {
+  background: rgba(229, 84, 115, 0.1);
+  padding: 0px 240px;
+  display: flex;
+  gap: 97px;
+}
+
+.header-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  max-width: 695px;
+}
+
+.header-description {
+  margin: 32px 0;
+  max-width: 634px;
+}
+
+.header-info {
+  margin-top: 190px;
+}
+
+/*---------------------------------- Feature Section Styles ------------------------------------*/
+.featured-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.featured-description {
+  margin: 24px auto 32px;
+  max-width: 594px;
+}
+.feature-container {
+  display: flex;
+  gap: 24px;
+}
+
+.feater-item-1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  background-image: url(../images/pngwing\ 6.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.feater-item-2 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  background-image: url(../images/pngwing\ 5.png);
+  background-repeat: no-repeat;
+  background-position: bottom 50px center;
+}
+
+.feater-item-3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  background-image: url(../images/pngwing\ 7.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.feature-flower-name {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 570px;
+}
+
+/*---------------------------------- Delivery Section ------------------------------------*/
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  padding: 86px 175px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 128px;
+}
+
+.delivery img {
+  display: block;
+  margin: auto;
+}
+
+.delivery-descriptions {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+}

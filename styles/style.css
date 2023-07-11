@@ -62,7 +62,7 @@ header {
 }
 
 .featured-description {
-  margin: 24px auto 32px;
+  margin: 24px auto 48px;
   max-width: 594px;
 }
 .feature-container {
@@ -117,7 +117,7 @@ header {
   padding: 86px 175px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  margin-top: 128px;
+  margin-top: 200px;
 }
 
 .delivery img {
